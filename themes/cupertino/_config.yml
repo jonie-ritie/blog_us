@@ -71,10 +71,8 @@ footer:
   # also the title
   Projects:
     # the items
-    RSA CLI: https://github.com/MrWillCom/rsa-cli
-    Hexo Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
-    A Calendar: https://github.com/MrWillCom/a-calendar
-    Auto Mirroring Bucket: https://github.com/MrWillCom/auto-mirroring-bucket
+    # RSA CLI: https://github.com/MrWillCom/rsa-cli
+    LOVE HEALS ALL:
   # the title
   Me:
     # items
@@ -89,5 +87,14 @@ footer:
 license: CC BY-NC 4.0
 # the link of your license
 license_link: https://creativecommons.org/licenses/by-nc/4.0
+
+# add waline comment
+waline:
+  # Don't set `el` her``e.
+  path: location.pathname
+  serverURL: 'https://comment.ritie-jonie.xyz/'
+  lang: 'zh-CN'
+  placeholder: ''
+
 
 # REMEMBER TO EDIT THIS BEFORE DEPLOYING!!!

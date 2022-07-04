@@ -6,7 +6,7 @@ Add `waline` property to your blog configuration `_config.yml`:
 
 ```yml
 waline:
-# Don't set `el` here.
+# Don't set `el` her``e.
   path: location.pathname
   serverURL: "'https://example.com'"
 ```
