@@ -104,6 +104,19 @@ theme: cupertino
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
+  type: git
   repository: https://github.com/jonie-ritie/jonie-ritie.github.io.git
   branch: main
+
+# add waline comment
+waline:
+  # Don't set `el` her``e.
+  path: comment
+  serverURL: 'https://comment.ritie-jonie.xyz/'
+  lang: 'zh-CN'
+  placeholder: 'We are waiting for you : )'
+  meta: nick,mail,link
+  requiredFields: ['nick','mail']
+  avatar: 'robohash'
+  avatarCDN: 'https://sdn.geekzu.org/avatar/'
+  pageSize: '10'

@@ -34,7 +34,7 @@ rainbow_banner_colors:
   - '#004cff'
   - '#760188'
 # choose from [auto, always]
-rainbow_banner_shown: auto
+rainbow_banner_shown: always
 # Pride Month by default
 rainbow_banner_month: 6
 
@@ -76,25 +76,18 @@ footer:
   # the title
   Me:
     # items
-    GitHub: https://github.com/MrWillCom
+    GitHub: https://github.com/lujiannan
+    Email: mailto:2465373218@qq.com
     CodePen: https://codepen.io/mrwillcom
     Patreon: https://www.patreon.com/MrWillCom
     Mastodon: https://noc.social/@MrWillCom
     Discord: https://discord.gg/UKuFDjcfY8
-    Email: mailto:mr.will.com@outlook.com
 
 # the license your posts under
 license: CC BY-NC 4.0
 # the link of your license
 license_link: https://creativecommons.org/licenses/by-nc/4.0
 
-# add waline comment
-waline:
-  # Don't set `el` her``e.
-  path: location.pathname
-  serverURL: 'https://comment.ritie-jonie.xyz/'
-  lang: 'zh-CN'
-  placeholder: ''
 
 
 # REMEMBER TO EDIT THIS BEFORE DEPLOYING!!!
