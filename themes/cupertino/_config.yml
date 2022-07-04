@@ -34,7 +34,7 @@ rainbow_banner_colors:
   - '#004cff'
   - '#760188'
 # choose from [auto, always]
-rainbow_banner_shown: auto
+rainbow_banner_shown: always
 # Pride Month by default
 rainbow_banner_month: 6
 
@@ -88,13 +88,6 @@ license: CC BY-NC 4.0
 # the link of your license
 license_link: https://creativecommons.org/licenses/by-nc/4.0
 
-# add waline comment
-waline:
-  # Don't set `el` her``e.
-  path: location.pathname
-  serverURL: 'https://comment.ritie-jonie.xyz/'
-  lang: 'zh-CN'
-  placeholder: ''
 
 
 # REMEMBER TO EDIT THIS BEFORE DEPLOYING!!!
