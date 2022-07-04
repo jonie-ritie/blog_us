@@ -41,47 +41,41 @@ rainbow_banner_month: 6
 # navigation config
 nav:
   # the title displays in the upper left corner which won't change
-  title: Blog
+  title: BLOGS
   # the items displays in the upper right corner
   items:
     # these items will display as a link
     Archives: /archives
     Friends: /friends
-    Projects: /projects
     About: /about
     # these will be automatically be an icon
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
-
-# footer items
-footer:
-  # the title
-  Blog:
-    # the items after the title, display as links
-    Blog: /
-    Archives: /archives
-    Friends: /friends
-    Projects: /projects
-    Resume: /resume
-    About: /about
-    RSS: /atom.xml
-  # also the title
-  Projects:
-    # the items
-    # RSA CLI: https://github.com/MrWillCom/rsa-cli
-    LOVE HEALS ALL:
-  # the title
-  Me:
-    # items
     GitHub: https://github.com/lujiannan
-    Email: mailto:2465373218@qq.com
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
+    Discord: https://discord.gg/HsKMJdRc
+    QQ: https://jq.qq.com/?_wv=1027&k=2fatNYU9
+    Email: 'mailto:2465373218@qq.com'
+
+## footer items
+#footer:
+#  # the title
+#  Blog:
+#    # the items after the title, display as links
+#    Blog: /
+#    Archives: /archives
+#    Friends: /friends
+#    About: /about
+#    RSS: /atom.xml
+#  # also the title
+#  Projects:
+#    # the items
+#    # RSA CLI: https://github.com/MrWillCom/rsa-cli
+#    LOVE HEALS ALL:
+#  # the title
+#  Me:
+#    # items
+#    GitHub: https://github.com/lujiannan
+#    Email: 'mailto:2465373218@qq.com'
+#    Discord: https://discord.gg/HsKMJdRc
+#    QQ: https://jq.qq.com/?_wv=1027&k=2fatNYU9
 
 # the license your posts under
 license: CC BY-NC 4.0
