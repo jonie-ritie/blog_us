@@ -1,30 +1,30 @@
 <footer>
-    <div class="inner">
-        <div class="links">
-            <% for (const i in theme.footer) { %>
-            <div class="group">
-                <h4 class="title"><%= i %></h4>
-                <% for (const n in theme.footer[i]) { %>
-                <a href="<%- theme.footer[i][n] %>" class="item"><%= n %></a>
-                <% } %>
-            </div>
-            <% } %>
-        </div>
+    <div class="inner" style="text-align:center">
+<!--        <div class="links">-->
+<!--            <% for (const i in theme.footer) { %>-->
+<!--            <div class="group">-->
+<!--                <h4 class="title"><%= i %></h4>-->
+<!--                <% for (const n in theme.footer[i]) { %>-->
+<!--                <a href="<%- theme.footer[i][n] %>" class="item"><%= n %></a>-->
+<!--                <% } %>-->
+<!--            </div>-->
+<!--            <% } %>-->
+<!--        </div>-->
         <span>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br ><%- __('powered_by', '<a href="http://hexo.io/" target="_blank">Hexo</a>') %> </span>
         <% if (theme.show_color_scheme_toggle) { %>
             <br>
-            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle">
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" style="border: none">
                 <label>
                     <input type="radio" value="light">
-                    <span>Light</span>
+                    <span style="color: #a5d6ff">Light</span>
                 </label>
                 <label>
                     <input type="radio" value="dark">
-                    <span>Dark</span>
+                    <span style="color: #a5d6ff">Dark</span>
                 </label>
                 <label>
                     <input type="radio" value="auto">
-                    <span>Auto</span>
+                    <span style="color: #a5d6ff">Auto</span>
                 </label>
             </div>
         <% }%>
