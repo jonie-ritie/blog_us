@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: J & R
+subtitle: 'Neverland'
+description: 'To remember, to let go, and to move on.'
+keywords: ["Jiannan Lu","Jiayi Zhu","Jonas","Rita","Jonie","Ritie","Jonas Lu","Rita Zhu"]
+author: Jiannan Lu
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -103,4 +103,6 @@ theme: cupertino
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git'
+  repository: https://github.com/jonie-ritie/jonie-ritie.github.io.git
+  branch: main
