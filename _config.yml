@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: J & R
-subtitle: 'J&R''s Neverland'
+title: Jonie & Ritie
+subtitle: 'Jonas & Rita '' Neverland'
 description: 'Arts of love & persistence'
 keywords: ["Jiannan Lu","Jiayi Zhu","Jonas","Rita","Jonie","Ritie","Jonas Lu","Rita Zhu"]
 author: Jiannan Lu
@@ -92,6 +92,7 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
+  - "*"
 exclude:
 ignore:
 
