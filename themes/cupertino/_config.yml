@@ -1,7 +1,7 @@
 # REMEMBER TO EDIT THIS BEFORE DEPLOYING!!!
 
 # the path to your blog's icon (looking default into blog/source folder):
-favicon: /blingStitch.png
+favicon: /sleepyStitch.png
 
 # the path to manifest.json
 manifest: /manifest.json
