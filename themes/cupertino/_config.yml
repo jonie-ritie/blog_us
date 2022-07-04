@@ -76,12 +76,12 @@ footer:
   # the title
   Me:
     # items
-    GitHub: https://github.com/MrWillCom
+    GitHub: https://github.com/lujiannan
+    Email: mailto:2465373218@qq.com
     CodePen: https://codepen.io/mrwillcom
     Patreon: https://www.patreon.com/MrWillCom
     Mastodon: https://noc.social/@MrWillCom
     Discord: https://discord.gg/UKuFDjcfY8
-    Email: mailto:mr.will.com@outlook.com
 
 # the license your posts under
 license: CC BY-NC 4.0
