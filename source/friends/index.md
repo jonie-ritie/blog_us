@@ -7,7 +7,7 @@ no_comments: true
 ## Us
 
 <div class="container">
-    <div class="card" style="display: grid; grid-template-columns: minmax(128px, 10%) 1fr; padding: 8px 16px;">
+    <div class="card" style="display: grid; grid-template-columns: minmax(128px, 10%) 1fr; padding: 8px 16px; ">
         <img src="/img/stitch_sleepy.png" alt="Jonie & Ritie ' logo" style="height: 100%; object-fit: contain;">
         <div>
             <h1>Jonas & Rita</h1>
