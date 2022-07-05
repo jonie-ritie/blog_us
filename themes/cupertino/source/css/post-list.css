@@ -150,7 +150,7 @@
 .post-list.archives .post-list-item {
   border-radius: 0;
   background-color: initial;
-  padding: 18px;
+  /*padding: 18px;*/
   margin-bottom: 18px;
   border-bottom: 1px solid var(--border-color);
   transition: all 200ms ease;
