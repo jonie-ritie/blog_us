@@ -7,7 +7,7 @@ title: Jonie & Ritie
 subtitle: 'Jonas & Rita '' Neverland'
 description: 'Arts of love & persistence'
 keywords: ["Jiannan Lu","Jiayi Zhu","Jonas","Rita","Jonie","Ritie","Jonas Lu","Rita Zhu"]
-author: Jiannan Lu
+author: Jonas & Rita
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
@@ -101,26 +101,25 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: cupertino
 
+# add waline comment
+waline:
+  serverURL: https://waline-r4qhtn3is-jonie-ritie.vercel.app
+  lang: zh-cn
+  placeholder: 要文明评论哦, 不然会被打屁屁
+  meta: ['nick','mail','link']
+  requiredFields: ['nick']
+  avatar: robohash
+  avatarCDN: https://sdn.geekzu.org/avatar/
+  pageSize: 10
+  wordLimit: 0
+  visitor: false
+  dark: auto
+  copyright: false
+  path: window.location.pathname.replace(/\/$/,'')
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repository: https://github.com/jonie-ritie/jonie-ritie.github.io.git
   branch: main
-
-# add waline comment
-waline:
-  # Don't set `el` her``e.
-  path: window.location.pathname
-  serverURL: 'https://comment.ritie-jonie.xyz/'
-  lang: 'zh-CN'
-  placeholder: 'We are waiting for you : )'
-  meta: ['nick','mail','link']
-  requiredFields: ['nick']
-  avatar: 'robohash'
-  avatarCDN: 'https://sdn.geekzu.org/avatar/'
-  pageSize: '10'
-  wordLimit: '0'
-  visitor: true
-  dark: auto
-  copyright: false
