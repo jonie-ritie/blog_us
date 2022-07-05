@@ -23,7 +23,9 @@
 
 .post-list-item:hover,
 .post-list-item  > a:focus {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  /*box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;*/
+  /*box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;*/
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
 .post-list-item:nth-child(2n-1) {
@@ -148,8 +150,8 @@
 .post-list.archives .post-list-item {
   border-radius: 0;
   background-color: initial;
-  padding: 21px 0;
-  margin: 0;
+  padding: 18px;
+  margin-bottom: 18px;
   border-bottom: 1px solid var(--border-color);
   transition: all 200ms ease;
 }

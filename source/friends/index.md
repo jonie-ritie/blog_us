@@ -14,7 +14,7 @@ no_comments: true
             <p>We are modern cheesy lovers, dreaming to have a house of our own, working on it, and sharing the scenery along the way there.<br/><br/><b>Status:</b><br/>Jonas's currently doing an internship while Rita's enjoying her first-year summer vacation.<br></p>
             <div class="actions">
                 <div class="right">
-                    <a class="action-button-primary" href="mailto:2465373218@qq.com">Contact</a>
+                    <a class="action-button-primary" href="mailto:2465373218@qq.com">Email us</a>
                 </div>
             </div>
         </div>
