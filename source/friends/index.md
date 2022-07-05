@@ -8,7 +8,7 @@ no_comments: true
 
 <div class="container">
     <div class="card" style="display: grid; grid-template-columns: minmax(128px, 10%) 1fr; padding: 8px 16px;">
-        <img src="/sleepyStitch.png" alt="Jonie & Ritie ' logo" style="height: 100%; object-fit: contain;">
+        <img src="/img/stitch_sleepy.png" alt="Jonie & Ritie ' logo" style="height: 100%; object-fit: contain;">
         <div>
             <h1>Jonas & Rita</h1>
             <p>We are modern cheesy lovers, dreaming to have a house of our own, working on it, and sharing the scenery along the way there.<br/><br/><b>Status:</b><br/>Jonas's currently doing an internship while Rita's enjoying her first-year summer vacation.<br></p>

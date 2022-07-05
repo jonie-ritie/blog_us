@@ -14,7 +14,7 @@
   "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/sleepyStitch.png",
+      "src": "/img/stitch_sleepy.png",
       "sizes": "108x100"
     }
   ],
