@@ -103,12 +103,11 @@ theme: cupertino
 
 # add waline comment
 waline:
-  js: https://
   serverURL: https://waline-r4qhtn3is-jonie-ritie.vercel.app
   lang: zh-cn
   placeholder: 要文明评论哦, 不然会被打屁屁
-  meta: [nick,mail,link]
-  requiredFields: [nick]
+  meta: ['nick','mail','link']
+  requiredFields: ['nick']
   avatar: robohash
   avatarCDN: https://sdn.geekzu.org/avatar/
   pageSize: 10
@@ -116,6 +115,7 @@ waline:
   visitor: false
   dark: auto
   copyright: false
+  path: window.location.pathname.replace(/\/$/,'')
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

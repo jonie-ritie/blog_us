@@ -47,17 +47,19 @@
 
     <% if (!page.no_comments) { %>
         <% if (config.waline) { %>
-        <div class="container">
-            <div id="waline"></div>
-            <script>
-                new Waline({
-                    el: "#waline",
-                    <% for (const i in config.waline) { %>
-                    <%- i %>: <%- config.waline[i] %>,
-                    <% } %>
-                });
-            </script>
-        </div>
+            <div class="container">
+                <div id="waline"></div>
+                <script src="https://unpkg.com/@waline/client/dist/waline.js"/>
+                <link href="https://unpkg.com/@waline/client/dist/waline.css" rel="stylesheet">
+                <script>
+                    Waline.init({
+                        el: "#waline",
+                        <% for (const i in config.waline) { %>
+                        <%- i %>: <%- config.waline[i] %>,
+                        <% } %>
+                    });
+                </script>
+            </div>
         <% } %>
         <% if (config.giscus) { %>
         <%- config.giscus %>

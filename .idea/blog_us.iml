@@ -6,7 +6,9 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Waline" level="application" />
-    <orderEntry type="library" name="@waline/client" level="application" />
+    <orderEntry type="library" name="Valine" level="application" />
     <orderEntry type="library" name="Waline" level="application" />
+    <orderEntry type="library" name="waline" level="application" />
+    <orderEntry type="library" name="@waline/client" level="application" />
   </component>
 </module>
