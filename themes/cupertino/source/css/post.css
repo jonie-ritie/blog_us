@@ -148,3 +148,38 @@ hr,
 .about .details p {
   margin: 6px 0;
 }
+
+
+/* The following contents are self-added */
+blockquote {
+  font-family: Verdana, monospace;
+  font-weight: 100;
+  font-size: 2rem;
+  max-width: 600px;
+  line-height: 1.4;
+  position: relative;
+  margin: 0;
+  padding: .5rem;
+  border-left: 0px solid #f0c0cb;
+}
+
+blockquote:before,
+blockquote:after {
+  position: absolute;
+  color: #f0c0cb;
+  font-size: 8rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+blockquote:before {
+  content: '“';
+  left: -2rem;
+  top: -3rem;
+}
+
+blockquote:after {
+  content: '”';
+  right: -2rem;
+  bottom: 0rem;
+}
