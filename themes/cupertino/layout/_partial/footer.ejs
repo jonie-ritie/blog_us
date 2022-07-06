@@ -10,21 +10,21 @@
 <!--            </div>-->
 <!--            <% } %>-->
 <!--        </div>-->
-        <span>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br ><%- __('powered_by', '<a href="http://hexo.io/" target="_blank">Hexo</a>') %> </span>
+        <span>Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br ><%- ('Powered by Hexo') %> </span>
         <% if (theme.show_color_scheme_toggle) { %>
             <br>
-            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" style="border: none">
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" >
                 <label>
                     <input type="radio" value="light">
-                    <span style="color: #a5d6ff">Light</span>
+                    <span style="color: var(--pink-purple)"><strong>Light</strong></span>
                 </label>
                 <label>
                     <input type="radio" value="dark">
-                    <span style="color: #a5d6ff">Dark</span>
+                    <span style="color: var(--pink-purple)"><strong>Dark</strong></span>
                 </label>
                 <label>
                     <input type="radio" value="auto">
-                    <span style="color: #a5d6ff">Auto</span>
+                    <span style="color: var(--pink-purple)"><strong>Auto</strong></span>
                 </label>
             </div>
         <% }%>

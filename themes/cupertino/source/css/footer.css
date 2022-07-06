@@ -45,8 +45,8 @@ footer .item {
 
 footer .color-scheme-toggle {
     display: inline-block;
-    border-radius: 16px;
-    border: 1px solid var(--blue);
+    border-radius: 8px;
+    border: 2px solid var(--pink-purple);
     padding-bottom: 1px;
     margin-top: 16px;
 }
@@ -68,8 +68,8 @@ footer .color-scheme-toggle label input {
 footer .color-scheme-toggle label span {
     font-size: 14px;
     line-height: 14px;
-    padding: 2px 4px;
-    border-radius: 12px;
+    padding: 2px 2px;
+    border-radius: 6px;
     color: var(--link);
     width: 40px;
     display: inline-block;
@@ -77,6 +77,6 @@ footer .color-scheme-toggle label span {
 }
 
 footer .color-scheme-toggle label input:checked+span {
-    color: var(--white-txt-on-blue-bg);
-    background-color: var(--blue);
+    /*color: var(--white-txt-on-blue-bg);*/
+    background-color: #f0f0f0;
 }
