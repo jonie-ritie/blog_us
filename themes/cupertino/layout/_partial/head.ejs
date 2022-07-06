@@ -58,7 +58,11 @@
   <%- css('css/archive') %>
   <% } %>
 
+  <!-- waline comment -->
   <% if (config.waline) { %>
     <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
   <% } %>
+
+  <!-- trigger css while scroll -->
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
