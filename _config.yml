@@ -103,7 +103,7 @@ theme: cupertino
 
 # add waline comment
 waline:
-  serverURL: https://waline-r4qhtn3is-jonie-ritie.vercel.app
+  serverURL: "'https://waline-r4qhtn3is-jonie-ritie.vercel.app/'"
   lang: zh-cn
   placeholder: 要文明评论哦, 不然会被打屁屁
   meta: ['nick','mail','link']

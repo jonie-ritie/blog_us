@@ -13,6 +13,8 @@ categories: Anniversary
 </blockquote>
 <br><br>
 
+### Publisher: Rita
+
 ![first](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211027-01.jpg)
 ![second](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211027-02.jpg)
 ![third](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211027-03.jpg)
