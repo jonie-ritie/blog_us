@@ -33,6 +33,12 @@ body ::selection {
   margin-top: 16px;
 }
 
+@media screen and (max-width: 800px) {
+  .meta .title {
+    font-size: 42px;
+  }
+}
+
 .content {
   font-size: 19px;
   line-height: 1.4211;
@@ -152,9 +158,10 @@ hr,
 
 /* The following contents are self-added */
 blockquote {
-  font-family: Verdana, monospace;
+  font-family: "Microsoft Yi Baiti", monospace;
+  /*font-family: "Microsoft Uighur", monospace;*/
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 1.5rem;
   max-width: 600px;
   line-height: 1.4;
   position: relative;
@@ -166,20 +173,20 @@ blockquote {
 blockquote:before,
 blockquote:after {
   position: absolute;
-  color: var(--pink-purple);
+  color: lightgrey;
   font-size: 8rem;
   width: 4rem;
   height: 4rem;
 }
 
 blockquote:before {
-  content: '“';
-  left: -2rem;
+  content: '"';
+  left: 0rem;
   top: -3rem;
 }
 
 blockquote:after {
-  content: '”';
-  right: -2rem;
+  content: '"';
+  right: 0rem;
   bottom: 0rem;
 }
