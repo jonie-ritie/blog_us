@@ -3,7 +3,7 @@ body {
 }
 
 body ::selection {
-  background-color: pink;
+  background-color: var(--pink-purple);
   color: white;
 }
 
@@ -160,13 +160,13 @@ blockquote {
   position: relative;
   margin: 0;
   padding: .5rem;
-  border-left: 0px solid #f0c0cb;
+  border-left: 0px solid var(--pink-purple);
 }
 
 blockquote:before,
 blockquote:after {
   position: absolute;
-  color: #f0c0cb;
+  color: var(--pink-purple);
   font-size: 8rem;
   width: 4rem;
   height: 4rem;
