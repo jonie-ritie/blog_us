@@ -6,7 +6,7 @@ no_about: true
 ---
 <div>
     <strong>
-        <p align="center" style="font-size: 50px">
+        <p align="center" style="font-size: 48px">
             Comment
         </p>
     </strong> 
