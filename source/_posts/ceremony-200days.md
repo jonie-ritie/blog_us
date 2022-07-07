@@ -7,9 +7,8 @@ categories: Anniversary
 ---
 
 <br>
-<blockquote>
-    <h2 align="center"><span style="color: var(--pink-purple); margin: 18px">每一个木偶人都要在钟点相遇<br></span></h2>
-    <h2 align="center"><span style="color: var(--pink-purple); margin: 18px">爱本身就是一件很纯粹的事 一辈子太短 全是感情 没有技巧<br></span></h2>
+<blockquote class="quote-card">
+    <p>每一个木偶人都要在钟点相遇<br>爱本身就是一件很纯粹的事 一辈子太短 全是感情 没有技巧</p>
 </blockquote>
 <br><br>
 

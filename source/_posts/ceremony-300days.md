@@ -7,8 +7,8 @@ categories: Anniversary
 ---
 
 <br>
-<blockquote>
-    <h2 align="center"><span style="color: var(--pink-purple); margin: 18px">一起看过的电影当然要记录下来咯<br></span></h2>
+<blockquote class="quote-card">
+    <p>一起看过的电影当然要记录下来咯</p>
 </blockquote>
 <br><br>
 

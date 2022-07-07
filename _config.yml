@@ -106,7 +106,6 @@ waline:
   serverURL: "'https://comment.ritie-jonie.xyz/'"
   path: window.location.pathname.replace(/\/$/,'')
 
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

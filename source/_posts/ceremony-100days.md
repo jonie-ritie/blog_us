@@ -7,9 +7,8 @@ categories: Anniversary
 ---
 
 <br>
-<blockquote>
-    <h2 align="center"><span style="color: var(--pink-purple); margin: 18px">永远真诚 永远坚定<br></span></h2>
-    <p align="center"><span style="margin: 18px">才对得起这些为了一点点甜蜜而努力走过的 只有我们知道的日子</span></p>
+<blockquote class="quote-card">
+    <p>永远真诚 永远坚定<br>才对得起这些为了一点点甜蜜而努力走过的 只有我们知道的日子</p>
 </blockquote>
 <br><br>
 
