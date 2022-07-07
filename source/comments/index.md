@@ -7,11 +7,11 @@ no_about: true
 <div>
     <strong>
         <h1 align="center" style="font-size: 48px">
-            Comment
+            Comments
         </h1>
-    </strong> 
-    <p align="center">
-        - express yourself there -
+    </strong>
+    <p align="center" style="overflow: hidden">
+        ——————————&nbsp;&nbsp;express yourself here&nbsp;&nbsp;——————————
     </p>
     <br><br>
 </div>
@@ -217,4 +217,4 @@ no_about: true
       </div>
     </div>
 </div>
-<br><br><br><br>
+<br><br><br><br><br>
