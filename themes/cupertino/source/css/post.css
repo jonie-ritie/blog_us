@@ -156,7 +156,7 @@ hr,
 }
 
 /* The following contents are self-added */
-.quote-card {
+blockquote.quote-card {
   background: linear-gradient(30deg, rgba(221,214,243,0.35), rgba(250,172,168,0.35));
   color: grey;
 
@@ -169,7 +169,7 @@ hr,
   border-radius: 16px;
 }
 
-.quote-card p {
+blockquote.quote-card p {
     letter-spacing: 0.075em;
     font-size: 24px;
     line-height: 1.75;
@@ -179,7 +179,7 @@ hr,
     padding-top: 5px;
 }
 
-.quote-card cite {
+blockquote.quote-card cite {
     font-size: 16px;
     margin-top: 10px;
     display: block;
@@ -187,7 +187,7 @@ hr,
     opacity: 0.8;
 }
 
-.quote-card :before {
+blockquote.quote-card :before {
   font-family: Georgia, serif;
   content: "“";
   position: absolute;
@@ -199,7 +199,7 @@ hr,
 }
 
 
-.quote-card :after {
+blockquote.quote-card :after {
   font-family: Georgia, serif;
   content: "”";
   position: absolute;
@@ -212,7 +212,7 @@ hr,
 }
 
 @media (max-width: 800px) {
-  .quote-card :after {
+  blockquote.quote-card :after {
     font-size: 22em;
     right: -25px;
   }
