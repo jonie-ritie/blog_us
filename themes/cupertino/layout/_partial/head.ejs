@@ -59,9 +59,13 @@
   <% } %>
 
   <!-- waline comment -->
-  <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-  <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
+  <% if (config.waline) { %>
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
+  <% } %>
 
   <!-- trigger css while scroll -->
-  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <% if (config.scrollreveal) { %>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <% } %>
 </head>

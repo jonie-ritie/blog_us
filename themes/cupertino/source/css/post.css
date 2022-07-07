@@ -165,16 +165,18 @@ hr,
 
   position: relative;
   overflow: hidden;
-  min-height: 120px;
+  min-height: 80px;
   border-radius: 16px;
 }
 
 .quote-card p {
+    letter-spacing: 0.075em;
     font-size: 24px;
     line-height: 1.75;
     margin-left: 48px;
     margin-right: 200px;
     max-width: 100%;
+    padding-top: 5px;
 }
 
 .quote-card cite {
