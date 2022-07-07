@@ -4,14 +4,14 @@ no_date: true
 no_divider: true
 no_about: true
 ---
-<div>
+<div style="overflow: hidden">
     <strong>
         <h1 align="center" style="font-size: 48px">
             Comments
         </h1>
     </strong>
-    <p align="center" style="overflow: hidden">
-        ——————————&nbsp;&nbsp;express yourself here&nbsp;&nbsp;——————————
+    <p align="center">
+        &mdash;&mdash;&mdash;&mdash;&mdash;&nbsp;&nbsp;express yourself here&nbsp;&nbsp;&mdash;&mdash;&mdash;&mdash;&mdash;
     </p>
     <br><br>
 </div>
