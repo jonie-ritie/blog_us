@@ -12,5 +12,7 @@
     <orderEntry type="library" name="Waline" level="application" />
     <orderEntry type="library" name="scrollreveal" level="application" />
     <orderEntry type="library" name="scrollreveal" level="application" />
+    <orderEntry type="library" name="waline" level="application" />
+    <orderEntry type="library" name="css-doodle" level="application" />
   </component>
 </module>

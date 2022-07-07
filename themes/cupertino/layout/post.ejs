@@ -53,7 +53,7 @@
             <div class="container">
                 <div id="waline"></div>
                 <script>
-                    new Waline({
+                    Waline.init({
                         el: "#waline",
                         <% for (const i in config.waline) { %>
                         <%- i %>: <%- config.waline[i] %>,
