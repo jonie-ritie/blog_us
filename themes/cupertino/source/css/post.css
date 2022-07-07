@@ -1,3 +1,5 @@
+@import "deer.css";
+
 body {
   background-color: var(--white);
 }
@@ -155,38 +157,66 @@ hr,
   margin: 6px 0;
 }
 
-
 /* The following contents are self-added */
-blockquote {
-  font-family: "Microsoft Yi Baiti", monospace;
-  /*font-family: "Microsoft Uighur", monospace;*/
-  font-weight: 100;
-  font-size: 1.5rem;
-  max-width: 600px;
-  line-height: 1.4;
+blockquote.quote-card {
+  background: linear-gradient(30deg, rgba(221,214,243,0.35), rgba(250,172,168,0.35));
+  color: grey;
+
+  box-sizing: border-box;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
   position: relative;
-  margin: 0;
-  padding: .5rem;
-  border-left: 0px solid var(--pink-purple);
+  overflow: hidden;
+  min-height: 80px;
+  border-radius: 16px;
 }
 
-blockquote:before,
-blockquote:after {
+blockquote.quote-card p {
+    letter-spacing: 0.075em;
+    font-size: 24px;
+    line-height: 1.75;
+    margin-left: 48px;
+    margin-right: 200px;
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+blockquote.quote-card cite {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+blockquote.quote-card :before {
+  font-family: Georgia, serif;
+  content: "“";
   position: absolute;
-  color: lightgrey;
-  font-size: 8rem;
-  width: 4rem;
-  height: 4rem;
+  top: -25px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(222, 222, 222, 1);
+  font-weight: normal;
 }
 
-blockquote:before {
-  content: '"';
-  left: 0rem;
-  top: -3rem;
+
+blockquote.quote-card :after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 20em;
+  color: rgba(222, 222, 222, 1);
+  font-weight: normal;
 }
 
-blockquote:after {
-  content: '"';
-  right: 0rem;
-  bottom: 0rem;
+@media (max-width: 800px) {
+  blockquote.quote-card :after {
+    font-size: 22em;
+    right: -25px;
+  }
 }
+

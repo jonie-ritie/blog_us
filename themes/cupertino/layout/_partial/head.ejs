@@ -52,7 +52,7 @@
   <%- css('css/index') %>
   <% } %>
   <% if (page.path != "index.html") { %>
-  <%- css('css/post') %>
+    <%- css('css/post') %>
   <% } %>
   <% if (is_archive() || is_category() || is_tag()) { %>
   <%- css('css/archive') %>
@@ -60,9 +60,12 @@
 
   <!-- waline comment -->
   <% if (config.waline) { %>
-    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
   <% } %>
 
   <!-- trigger css while scroll -->
-  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <% if (config.scrollreveal) { %>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <% } %>
 </head>
