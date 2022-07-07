@@ -7,9 +7,9 @@ categories: Anniversary
 ---
 
 <br>
-<div class="quote-card">
+<blockquote class="quote-card">
     <p>一起看过的电影当然要记录下来咯</p>
-</div>
+</blockquote>
 <br><br>
 
 ### Author: Jonas
