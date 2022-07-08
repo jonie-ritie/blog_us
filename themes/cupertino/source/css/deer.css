@@ -13,6 +13,54 @@
     overflow: hidden;
     position: relative;
     width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.artboard_header:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    border-top: 4px solid var(--black);
+    border-left: 4px solid var(--black);
+    border-radius: 3px;
+}
+.artboard_header:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    border-top: 4px solid var(--black);
+    border-right: 4px solid var(--black);
+    border-radius: 3px;
+}
+.artboard_footer:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    left: 0;
+    border-bottom: 4px solid var(--black);
+    border-left: 4px solid var(--black);
+    border-radius: 3px;
+}
+.artboard_footer:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid var(--black);
+    border-right: 4px solid var(--black);
+    border-radius: 3px;
 }
 
 .deer {

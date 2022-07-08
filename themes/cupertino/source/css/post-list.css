@@ -21,12 +21,17 @@
   transition: all 200ms ease;
 }
 
-.post-list-item:hover,
-.post-list-item  > a:focus {
-  /*box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;*/
-  /*box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;*/
+@keyframes up {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  100% {
+    transform: translate(0px, -8px);
+  }
+}
+.post-list-item:hover {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  transform: translate(0px,-8px);
+  animation: up linear 300ms forwards;
 }
 
 .post-list-item:nth-child(2n-1) {
@@ -61,7 +66,7 @@
 .post-list-item:hover .cover-img img,
 .post-list-item > a:focus .cover-img img {
   transform: scale(1.03);
-  filter: brightness(1);
+  filter: brightness(0.9);
 }
 
 .post-list-item .title {
@@ -151,7 +156,6 @@
 .post-list.archives .post-list-item {
   border-radius: 0;
   background-color: initial;
-  /*padding: 18px;*/
   margin-bottom: 18px;
   border-bottom: 1px solid var(--border-color);
   transition: all 200ms ease;
