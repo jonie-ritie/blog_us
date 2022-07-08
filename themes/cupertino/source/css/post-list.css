@@ -14,24 +14,16 @@
 }
 
 .post-list-item {
-  overflow: hidden;
   border-radius: 16px;
   background-color: var(--card-bg);
   margin-bottom: 21px;
-  transition: all 200ms ease;
+  transition: all 400ms linear;
 }
 
-@keyframes up {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  100% {
-    transform: translate(0px, -8px);
-  }
-}
 .post-list-item:hover {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  animation: up linear 300ms forwards;
+  transform: translateY(-6px);
+  transition: all 400ms linear
 }
 
 .post-list-item:nth-child(2n-1) {
@@ -50,6 +42,7 @@
 }
 
 .post-list-item .cover-img {
+  border-radius: 16px;
   overflow: hidden;
   height: 240px;
 }

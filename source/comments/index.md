@@ -4,7 +4,7 @@ no_date: true
 no_divider: true
 no_about: true
 ---
-<div class="container" style="height: calc(100vh - 180px)">
+<div class="container" style="height: calc(100vh - 56px)">
     <strong>
         <h1 align="center" style="font-size: 48px">
             Comments
@@ -14,10 +14,8 @@ no_about: true
         express yourself here
     </p>
     <br><br>
-    <div class="container-self">
+    <div class="container-deerAnim">
       <div class="artboard">
-        <div class="artboard_header"></div>
-        <div class="artboard_footer"></div>
         <div class="deer">
           <div class="rocking">
             <div class="head">
