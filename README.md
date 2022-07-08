@@ -9,6 +9,7 @@
 新增 Comments 页
 #### 2. ScrollReveal 全局实现
 实现博客主页文字，post 列表卡片，以及 post 内容滑动载入动效
+BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时上移，请在 index&archive.ejs 中注释掉 ScrollReveal
 #### 3. Post List 修改样式
 实现 post 列表卡片在鼠标悬停时的阴影以及动效
 #### 4. Comments 页以及各 Post 页新增 Waline 评论区

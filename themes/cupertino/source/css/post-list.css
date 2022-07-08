@@ -59,7 +59,6 @@
 .post-list-item:hover .cover-img img,
 .post-list-item > a:focus .cover-img img {
   transform: scale(1.03);
-  filter: brightness(0.9);
 }
 
 .post-list-item .title {
