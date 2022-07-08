@@ -89,4 +89,22 @@
             navEl.after(banner)
         }
     }
+
+    // When to show the scroll link
+    const pageheight = document.documentElement.clientHeight;
+
+    // Our scroll link element
+    const toTopBtn = document.getElementById("return-to-top")
+    let scrollTop = 0
+    window.onscroll = () => {
+        scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        scrollTop > pageheight/2 ? (toTopBtn.style.display = 'block') : (toTopBtn.style.display = 'none')
+    }
+
+    toTopBtn.addEventListener('click', function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        })
+    })
 })()

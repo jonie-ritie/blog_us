@@ -4,20 +4,17 @@ no_date: true
 no_divider: true
 no_about: true
 ---
-<div>
+<div class="container" style="height: calc(100vh - 56px)">
     <strong>
         <h1 align="center" style="font-size: 48px">
             Comments
         </h1>
     </strong>
-    <p align="center" style="overflow: hidden">
-        ——————————&nbsp;&nbsp;express yourself here&nbsp;&nbsp;——————————
+    <p align="center">
+        express yourself here
     </p>
     <br><br>
-</div>
-
-<div class="container">
-    <div class="container-self">
+    <div class="container-deerAnim">
       <div class="artboard">
         <div class="deer">
           <div class="rocking">
