@@ -113,9 +113,7 @@ waline:
 # add 'trigger of css transform while scrolling'
 scrollreveal: true
 
-# add hexo-renderer-markdown-it-plus
-markdown_it_plus:
-  
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
