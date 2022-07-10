@@ -98,6 +98,7 @@
     let scrollTop = 0
     window.onscroll = () => {
         scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        // 当滚动条滚到当前页面高度1/2的时候，显示“回到顶部”按钮
         scrollTop > pageheight/2 ? (toTopBtn.style.display = 'block') : (toTopBtn.style.display = 'none')
     }
 
@@ -107,4 +108,21 @@
             behavior: "smooth"
         })
     })
+
+    $(".option").on("click", function () {
+        $(".option").removeClass("active");
+        $(this).addClass("active");
+        var type = $(this).data("option");
+        setTimeout(function () {
+            if (type === "day") {
+                $(".time").attr('class', 'time day');
+            } else if (type === "night") {
+                $(".time").attr('class', 'time night');
+            } else if (type === "dusk") {
+                $(".time").attr('class', 'time dusk');
+            } else if (type === "sunset") {
+                $(".time").attr('class', 'time sunset');
+            }
+        }, 500);
+    })(jQuery);
 })()
