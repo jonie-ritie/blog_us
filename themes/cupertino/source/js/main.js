@@ -99,7 +99,12 @@
     window.onscroll = () => {
         scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         // 当滚动条滚到当前页面高度1/2的时候，显示“回到顶部”按钮
-        scrollTop > pageheight/2 ? (toTopBtn.style.display = 'block') : (toTopBtn.style.display = 'none')
+        if ($(this).scrollTop() >= pageheight/2) {    // If page is scrolled more than 50px
+            $('#return-to-top').fadeIn("fast");       // Fade in the arrow
+        } else {
+            $('#return-to-top').fadeOut("fast");      // Else fade out the arrow
+        }
+        // scrollTop > pageheight/2 ? (toTopBtn.style.display = 'block') : (toTopBtn.style.display = 'none')
     }
     toTopBtn.addEventListener('click', function () {
         window.scrollTo({
@@ -108,6 +113,24 @@
         })
     })
 
+    // add a time cat on the comment page
+    $(".option").on("click", function () {
+        $(".option").removeClass("active");
+        $(this).addClass("active");
+        var type = $(this).data("option");
+        setTimeout(function () {
+            if (type === "day") {
+                $(".time").attr('class', 'time day');
+            } else if (type === "night") {
+                $(".time").attr('class', 'time night');
+            } else if (type === "dusk") {
+                $(".time").attr('class', 'time dusk');
+            } else if (type === "sunset") {
+                $(".time").attr('class', 'time sunset');
+            }
+        }, 500);
+    });
+    // 根据当地时间 设置不同时间的timeCat
     const hourNow = new Date().getHours() + 1
     if (hourNow > 5 && hourNow <= 8){
         $(".option").removeClass("active");
@@ -126,21 +149,4 @@
         $(".option:nth-child(4)").addClass("active");
         $(".time").attr('class', 'time night');
     }
-    // add a time cat on the comment page
-    $(".option").on("click", function () {
-        $(".option").removeClass("active");
-        $(this).addClass("active");
-        var type = $(this).data("option");
-        setTimeout(function () {
-            if (type === "day") {
-                $(".time").attr('class', 'time day');
-            } else if (type === "night") {
-                $(".time").attr('class', 'time night');
-            } else if (type === "dusk") {
-                $(".time").attr('class', 'time dusk');
-            } else if (type === "sunset") {
-                $(".time").attr('class', 'time sunset');
-            }
-        }, 500);
-    });
 })()
