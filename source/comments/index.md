@@ -10,7 +10,7 @@ no_about: true
             Comments
         </h1>
     </strong>
-    <p align="center">
+    <p align="center" style="margin: 0px">
         express yourself here
     </p>
     <br><br>

@@ -15,11 +15,11 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 #### 4. Comments 页以及各 Post 页新增 Waline 评论区
 配置 _config.yml 以及 waline.css
 实现评论区用户活跃标签以及评论数统计
-#### 5. Comments 页添加小鹿 css 动效 (back-to-top.css)
-新增 deer.css
-使用 @import 挂载于 post.css
-修改页面布局使评论区位于页面第二部分（小鹿和标题占据第一部分所有屏幕）
-#### 6. Comments 页以及各 Post 页添加返回顶部按钮 (back-to-top.css)
+#### 5. Comments 页添加时间小猫 css 动效 (self-time-cat.css)
+新增 self-time-cat.css
+直接导入于 head.ejs
+修改页面布局使评论区位于页面第二部分（时间猫和标题占据第一部分所有屏幕）
+#### 6. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)
 新增 return-to-top.css
 使用 @import 挂载于 components.css 以便全局使用，main.js中新增滚动监听
 实现按钮默认消失，滚动至页面高度一半时出现，点击后平滑滚动至顶部，按钮居于网页图层顶层

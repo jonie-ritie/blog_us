@@ -17,7 +17,7 @@ path, polygon, circle, rect {
     /*background: linear-gradient(30deg, pink, lightblue);*/
     background: #fff;
     border-radius: 16px;
-    margin: 0 auto 1em;
+    margin: 0 auto;
     display: block;
     padding: 10px;
     width: 300px;
