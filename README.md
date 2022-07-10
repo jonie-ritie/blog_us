@@ -1,5 +1,6 @@
 # blog_us
 
+[Newest Versions Here](https://www.ritie-jonie.xyz/version)
 ## version 0.1:
 #### 1. 基础设置修改
 采用 rainbow banner
