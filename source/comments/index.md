@@ -6,7 +6,7 @@ no_about: true
 ---
 <div class="container" style="height: calc(100vh - 56px)">
     <strong>
-        <h1 align="center" style="font-size: 48px">
+        <h1 align="center" style="font-size: 42px">
             Comments
         </h1>
     </strong>

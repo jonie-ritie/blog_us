@@ -1,7 +1,7 @@
 # blog_us
 
 [Newest Versions Here](https://www.ritie-jonie.xyz/version)
-## version 0.1:
+## Version 0.1:
 #### 1. 基础设置修改
 采用 rainbow banner
 修改网页名称，作者，github discord 链接
@@ -19,7 +19,7 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 #### 5. Comments 页添加时间小猫 css 动效 (self-time-cat.css)
 新增 self-time-cat.css
 直接导入于 head.ejs
-修改页面布局使评论区位于页面第二部分（时间猫和标题占据第一部分所有屏幕）
+修改页面布局使评论区位于页面第二部分（时间猫和标题占据初始页面所有屏幕）
 #### 6. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)
 新增 return-to-top.css
 使用 @import 挂载于 components.css 以便全局使用，main.js中新增滚动监听
