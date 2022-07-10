@@ -112,7 +112,7 @@ no_about: true
             </div>
         </div>
         <div class="option-wrapper">
-            <div class="option active" data-option="dusk">Dusk</div>
+            <div class="option active" data-option="dusk">Sunrise</div>
             <div class="option" data-option="day">Day</div>
             <div class="option" data-option="sunset">Sunset</div>
             <div class="option" data-option="night">Night</div>
