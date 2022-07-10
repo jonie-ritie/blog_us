@@ -99,7 +99,7 @@
     window.onscroll = () => {
         scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
         // 当滚动条滚到当前页面高度1/2的时候，显示“回到顶部”按钮
-        if ($(this).scrollTop() >= pageheight/2) {    // If page is scrolled more than 50px
+        if (scrollTop >= pageheight/2) {    // If page is scrolled more than 50px
             $('#return-to-top').fadeIn("fast");       // Fade in the arrow
         } else {
             $('#return-to-top').fadeOut("fast");      // Else fade out the arrow
