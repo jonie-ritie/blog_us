@@ -113,8 +113,6 @@ waline:
 # add 'trigger of css transform while scrolling'
 scrollreveal: true
 
-
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
