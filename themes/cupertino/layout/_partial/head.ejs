@@ -52,13 +52,27 @@
   <%- css('css/index') %>
   <% } %>
   <% if (page.path != "index.html") { %>
-  <%- css('css/post') %>
+    <%- css('css/post') %>
+    <%- css('css/self-time-cat') %>
   <% } %>
   <% if (is_archive() || is_category() || is_tag()) { %>
   <%- css('css/archive') %>
   <% } %>
 
+  <!-- waline comment -->
   <% if (config.waline) { %>
-    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
   <% } %>
+
+  <!-- trigger css while scroll -->
+  <% if (config.scrollreveal) { %>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <% } %>
+
+  <!-- back to top button -->
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
 </head>

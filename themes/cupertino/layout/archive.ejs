@@ -16,7 +16,7 @@
             <a href="<%- url_for(post.path) %>">
                 <% if (post.cover_image) { %>
                 <div class="cover-img">
-                    <img src="<%= post.cover_image %>" alt="<%= post.cover_image_alt %>">
+                    <img src="<%= post.cover_image %>" alt="<%= post.cover_image_alt %>" >
                 </div>
                 <% } %>
                 <div class="content">
@@ -43,6 +43,9 @@
                 </div>
             </a>
         </article>
+        <script>
+            ScrollReveal().reveal('.post-list-item',{ delay: 50, interval: 100, reset: true, distance: '5%', origin: 'top'});
+        </script>
         <% }) %>
     </div>
 

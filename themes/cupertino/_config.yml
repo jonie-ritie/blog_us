@@ -1,7 +1,7 @@
 # REMEMBER TO EDIT THIS BEFORE DEPLOYING!!!
 
 # the path to your blog's icon (looking default into blog/source folder):
-favicon: /blingStitch.png
+favicon: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/favicon/stitch_sleepy.png
 
 # the path to manifest.json
 manifest: /manifest.json
@@ -34,56 +34,50 @@ rainbow_banner_colors:
   - '#004cff'
   - '#760188'
 # choose from [auto, always]
-rainbow_banner_shown: auto
+rainbow_banner_shown: always
 # Pride Month by default
 rainbow_banner_month: 6
 
 # navigation config
 nav:
   # the title displays in the upper left corner which won't change
-  title: Blog
+  title: BLOGS
   # the items displays in the upper right corner
   items:
     # these items will display as a link
     Archives: /archives
     Friends: /friends
-    Projects: /projects
     About: /about
+    Version: /version
+    Comments: /comments
     # these will be automatically be an icon
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
+    GitHub: https://github.com/jonie-ritie
+    Discord: https://discord.gg/HsKMJdRc
+    QQ: https://jq.qq.com/?_wv=1027&k=2fatNYU9
+    Email: 'mailto:2465373218@qq.com'
 
-# footer items
-footer:
-  # the title
-  Blog:
-    # the items after the title, display as links
-    Blog: /
-    Archives: /archives
-    Friends: /friends
-    Projects: /projects
-    Resume: /resume
-    About: /about
-    RSS: /atom.xml
-  # also the title
-  Projects:
-    # the items
-    RSA CLI: https://github.com/MrWillCom/rsa-cli
-    Hexo Theme Cupertino: https://github.com/MrWillCom/hexo-theme-cupertino
-    A Calendar: https://github.com/MrWillCom/a-calendar
-    Auto Mirroring Bucket: https://github.com/MrWillCom/auto-mirroring-bucket
-  # the title
-  Me:
-    # items
-    GitHub: https://github.com/MrWillCom
-    CodePen: https://codepen.io/mrwillcom
-    Patreon: https://www.patreon.com/MrWillCom
-    Mastodon: https://noc.social/@MrWillCom
-    Discord: https://discord.gg/UKuFDjcfY8
-    Email: mailto:mr.will.com@outlook.com
+## footer items
+#footer:
+#  # the title
+#  Blog:
+#    # the items after the title, display as links
+#    Blog: /
+#    Archives: /archives
+#    Friends: /friends
+#    About: /about
+#    RSS: /atom.xml
+#  # also the title
+#  Projects:
+#    # the items
+#    # RSA CLI: https://github.com/MrWillCom/rsa-cli
+#    LOVE HEALS ALL:
+#  # the title
+#  Me:
+#    # items
+#    GitHub: https://github.com/jonie-ritie
+#    Email: 'mailto:2465373218@qq.com'
+#    Discord: https://discord.gg/HsKMJdRc
+#    QQ: https://jq.qq.com/?_wv=1027&k=2fatNYU9
 
 # the license your posts under
 license: CC BY-NC 4.0

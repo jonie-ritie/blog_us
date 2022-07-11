@@ -7,8 +7,8 @@ title: Jonie & Ritie
 subtitle: 'Jonas & Rita '' Neverland'
 description: 'Arts of love & persistence'
 keywords: ["Jiannan Lu","Jiayi Zhu","Jonas","Rita","Jonie","Ritie","Jonas Lu","Rita Zhu"]
-author: Jiannan Lu
-language: zh-CN
+author: Jonas & Rita
+language: en
 timezone: 'Asia/Shanghai'
 
 # URL
@@ -100,6 +100,18 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cupertino
+
+# add waline comment
+# please trans to post.js to change
+waline:
+  serverURL: "'https://comment.ritie-jonie.xyz/'"
+  path: window.location.pathname.replace(/\/$/,'')
+  copyright: false
+  dark: false
+  comment: true
+
+# add 'trigger of css transform while scrolling'
+scrollreveal: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment

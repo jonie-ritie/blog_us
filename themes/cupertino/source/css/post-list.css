@@ -14,11 +14,16 @@
 }
 
 .post-list-item {
-  overflow: hidden;
   border-radius: 16px;
   background-color: var(--card-bg);
   margin-bottom: 21px;
-  transition: all 200ms ease;
+  transition: all 400ms linear;
+}
+
+.post-list-item:hover {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  transform: translateY(-6px);
+  transition: all 400ms linear
 }
 
 .post-list-item:nth-child(2n-1) {
@@ -37,8 +42,9 @@
 }
 
 .post-list-item .cover-img {
+  border-radius: 16px;
   overflow: hidden;
-  height: 266px;
+  height: 240px;
 }
 
 .post-list-item .cover-img img {
@@ -53,7 +59,6 @@
 .post-list-item:hover .cover-img img,
 .post-list-item > a:focus .cover-img img {
   transform: scale(1.03);
-  filter: brightness(0.85);
 }
 
 .post-list-item .title {
@@ -143,8 +148,7 @@
 .post-list.archives .post-list-item {
   border-radius: 0;
   background-color: initial;
-  padding: 21px 0;
-  margin: 0;
+  margin-bottom: 18px;
   border-bottom: 1px solid var(--border-color);
   transition: all 200ms ease;
 }
@@ -165,6 +169,8 @@
 .post-list.archives .post-list-item .cover-img {
   height: initial;
   min-width: 180px;
+  max-height: 240px;
   width: 20vw;
   border-radius: 16px;
+  object-fit: cover;
 }

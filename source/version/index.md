@@ -1,6 +1,9 @@
-# blog_us
-
-[Newest Versions Here](https://www.ritie-jonie.xyz/version)
+---
+title: Version
+no_date: true
+no_about: true
+no_comments: true
+---
 ## Version 0.1:
 #### 1. 基础设置修改
 采用 rainbow banner
@@ -16,14 +19,19 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 #### 4. Comments 页以及各 Post 页新增 Waline 评论区
 配置 _config.yml 以及 waline.css
 实现评论区用户活跃标签以及评论数统计
-#### 5. Comments 页添加时间小猫 css 动效 (self-time-cat.css)
+#### 5. footer 页脚
+取消页脚目录
+修改页脚及页脚内 color theme 样式
+#### 6. Version 页
+新增 Version 页面记录所有版本迭代信息
+
+## Version 0.2:
+#### 1. Comments 页添加时间小猫 css 动效 (self-time-cat.css)
 新增 self-time-cat.css
 直接导入于 head.ejs
 修改页面布局使评论区位于页面第二部分（时间猫和标题占据初始页面所有屏幕）
-#### 6. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)
+新增根据当地时间设置时间小猫的画面
+#### 2. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)
 新增 return-to-top.css
 使用 @import 挂载于 components.css 以便全局使用，main.js中新增滚动监听
 实现按钮默认消失，滚动至页面高度一半时出现，点击后平滑滚动至顶部，按钮居于网页图层顶层
-#### 7. footer 页脚
-取消页脚目录
-修改页脚及页脚内 color theme 样式

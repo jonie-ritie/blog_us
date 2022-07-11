@@ -4,6 +4,10 @@
         <div class="group">
             <h2 class="sub"><%= config.subtitle %></h2>
             <h2 class="large"><%= config.description %></h2>
+            <script>
+                ScrollReveal().reveal('.sub',{ delay: 100, reset: true, distance: '50%', origin: 'top' });
+                ScrollReveal().reveal('.large',{ delay: 100, reset: true, distance: '20%', origin: 'top'});
+            </script>
         </div>
     </div>
 
@@ -16,7 +20,7 @@
             <a href="<%- url_for(post.path) %>">
                 <% if (post.cover_image) { %>
                 <div class="cover-img">
-                    <img src="<%= post.cover_image %>" alt="<%= post.cover_image_alt %>">
+                    <img src="<%= post.cover_image %>" alt="<%= post.cover_image_alt %>" >
                 </div>
                 <% } %>
                 <div class="content">
@@ -43,6 +47,9 @@
                 </div>
             </a>
         </article>
+        <script>
+            ScrollReveal().reveal('.post-list-item',{ delay: 50, interval: 150, reset: true, distance: '5%', origin: 'top' });
+        </script>
         <% }) %>
     </div>
 

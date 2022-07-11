@@ -2,6 +2,11 @@ body {
   background-color: var(--white);
 }
 
+body ::selection {
+  background-color: var(--pink-purple);
+  color: white;
+}
+
 .post {
   margin: 128px 0;
 }
@@ -26,6 +31,12 @@ body {
 .meta .title {
   font-size: 48px;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 800px) {
+  .meta .title {
+    font-size: 42px;
+  }
 }
 
 .content {
@@ -143,3 +154,76 @@ hr,
 .about .details p {
   margin: 6px 0;
 }
+
+/* The following contents are self-added */
+blockquote.quote-card {
+  /*background: linear-gradient(30deg, rgba(221,214,243,0.35), rgba(250,172,168,0.35));*/
+  background: var(--white);
+  color: grey;
+
+  box-sizing: border-box;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+
+  position: relative;
+  overflow: hidden;
+  min-height: 80px;
+  border-radius: 16px;
+}
+
+
+
+blockquote.quote-card p {
+    letter-spacing: 0.075em;
+    font-size: 24px;
+    line-height: 1.75;
+    margin-left: 40px;
+    margin-right: 80px;
+    max-width: 100%;
+    padding-top: 5px;
+}
+
+@media (max-width: 800px) {
+  blockquote.quote-card p {
+    margin-right: 64px;
+  }
+}
+
+blockquote.quote-card cite {
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+blockquote.quote-card :before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(222, 222, 222, 1);
+  font-weight: normal;
+}
+
+
+blockquote.quote-card :after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -80px;
+  line-height: 100px;
+  right: 0px;
+  font-size: 10em;
+  color: rgba(222, 222, 222, 1);
+  font-weight: normal;
+}
+
+@media (max-width: 800px) {
+  blockquote.quote-card :after {
+    font-size: 10em;
+    right: 0px;
+  }
+}
+
