@@ -35,7 +35,10 @@
     </a>
 
     <% if (!page.no_scrollProgress) { %>
-        <p id="percentage">0%</p>
+        <div id="percentage">
+            <div class="fill"></div>
+            0%
+        </div>
     <% } %>
 
     <% if (!page.no_about) { %>

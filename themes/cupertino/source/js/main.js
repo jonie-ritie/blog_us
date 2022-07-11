@@ -166,9 +166,12 @@
         }
         progress = progress + "%";
         // progress = progress.substring(0, progress.length - 2);
-        // if(progress === "100%"){
-        //     progress = "100% - COMPLETE！";
-        // }
+        if(progress === "100%"){
+            // progress = "100% - COMPLETE！";
+            readPercentage.style.background = "limegreen";
+        } else {
+            readPercentage.style.background = "grey";
+        }
         $("#percentage").html(progress);
     });
 })()

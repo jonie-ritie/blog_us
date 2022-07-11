@@ -3,6 +3,7 @@ title: Friends
 no_date: true
 no_comments: true
 no_about: true
+no_scrollProgress: true
 ---
 
 ## Us
