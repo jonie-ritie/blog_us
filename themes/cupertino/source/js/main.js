@@ -149,4 +149,29 @@
         $(".option:nth-child(4)").addClass("active");
         $(".time").attr('class', 'time night');
     }
+
+    // vertical scroll progress bar, address: https://codepen.io/EricPorter/pen/rNexdrG
+    $(window).scroll(function(){
+        var top = $(window).scrollTop();
+        var height = $(document).height();
+        height = height - $(window).height();
+        var progress = (top)/height;
+        progress = progress * 100;
+        progress = Math.round(progress);
+        var readPercentage = document.getElementById("percentage");
+        if (progress > 0) {
+            readPercentage.style.visibility = "visible";
+        } else if (progress <= 0) {
+            readPercentage.style.visibility = "hidden";
+        }
+        progress = progress + "%";
+        // progress = progress.substring(0, progress.length - 2);
+        if(progress === "100%"){
+            // progress = "100% - COMPLETE！";
+            readPercentage.style.background = "limegreen";
+        } else {
+            readPercentage.style.background = "grey";
+        }
+        $("#percentage").html(progress);
+    });
 })()

@@ -34,6 +34,13 @@
         <i class="icon-chevron-up"></i>
     </a>
 
+    <% if (!page.no_scrollProgress) { %>
+        <div id="percentage">
+            <div class="fill"></div>
+            0%
+        </div>
+    <% } %>
+
     <% if (!page.no_about) { %>
         <div class="about">
             <h1><%= __('about_this_post') %></h1>
