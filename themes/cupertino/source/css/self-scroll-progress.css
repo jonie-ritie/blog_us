@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+#percentage {
+    user-select: none;
+    z-index: 1001;
+    visibility: hidden;
+    font-family: 'Alata', sans-serif;
+    font-size: 32px;
+    top: -32px;
+    right: 88px;
+    color: var(--black);
+    position: fixed;
+    opacity: 0.3;
+    height: 0;
+    width: 0;
+}
+
+@media screen and (max-width: 800px){
+    #percentage {
+        font-size: 32px;
+    }
+}

@@ -40,7 +40,7 @@ path, polygon, circle, rect {
 
 .cat {
     position: absolute;
-    z-index: 10;
+    z-index: 2;
     bottom: -5px;
     right: -5px;
 }

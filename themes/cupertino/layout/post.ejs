@@ -24,7 +24,6 @@
     <% } %>
 
     <div class="content">
-        <%- partial('_partial/toc') %>
         <%- page.content %>
     </div>
     <script>
@@ -34,6 +33,10 @@
     <a id="return-to-top">
         <i class="icon-chevron-up"></i>
     </a>
+
+    <% if (!page.no_scrollProgress) { %>
+        <p id="percentage">0%</p>
+    <% } %>
 
     <% if (!page.no_about) { %>
         <div class="about">
