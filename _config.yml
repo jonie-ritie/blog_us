@@ -113,6 +113,16 @@ waline:
 # add 'trigger of css transform while scrolling'
 scrollreveal: true
 
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '🔗'
+    style: header-anchor
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

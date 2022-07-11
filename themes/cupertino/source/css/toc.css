@@ -1,0 +1,39 @@
+#toc {
+    line-height: 1em;
+    font-size: 0.9em;
+    float: right;
+}
+
+#toc .toc {
+    padding: 0;
+    margin: 1em;
+    line-height: 1.8em;
+}
+
+#toc .toc-child {
+    margin-left: 1em;
+}
+
+#toc .toc li {
+    list-style-type: none;
+}
+
+#toc ol {
+    margin-left: 0
+}
+
+.toc-article {
+    float: right;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #eee;
+    border: 1px solid #bbb;
+    border-radius: 16px;
+    margin: 1.5em 0 0.3em 1.5em;
+    padding: 1.2em 1em 0 1em;
+    max-width: 28%;
+}
+
+.toc-title {
+    font-size: 120%;
+}
