@@ -24,7 +24,7 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 修改页脚及页脚内 color theme 样式
 #### 6. Version 页
 新增 Version 页面记录所有版本迭代信息
-
+<br>
 ## Version 0.2:
 #### 1. Comments 页添加时间小猫 css 动效 (self-time-cat.css)
 新增 self-time-cat.css
