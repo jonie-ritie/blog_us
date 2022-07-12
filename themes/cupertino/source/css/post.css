@@ -1,4 +1,5 @@
 @import "self-scroll-progress.css";
+@import "self-post-nav.css";
 
 body {
   background-color: var(--white);
