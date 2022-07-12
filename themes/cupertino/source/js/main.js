@@ -165,6 +165,7 @@
             readPercentage.style.visibility = "hidden";
         }
         if(progress >= 100){
+            progress = 100;
             // progress = "100% - COMPLETE！";
             readPercentage.style.background = "limegreen";
         } else {
