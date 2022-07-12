@@ -72,7 +72,7 @@
                             <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
                         </div>
                         <div>
-                            <div class="nav__label">前一篇</div>
+                            <div class="nav__label">Previous Post</div>
                             <div class="nav__title"><%= page.next.title %></div>
                         </div>
                     </a>
@@ -82,7 +82,7 @@
             <div class="nav__next">
                 <a href="<%- url_for(page.prev.path) %>" class="nav__link">
                     <div>
-                        <div class="nav__label">后一篇</div>
+                        <div class="nav__label">Next Post</div>
                         <div class="nav__title"><%= page.prev.title %></div>
                     </div>
                     <div>

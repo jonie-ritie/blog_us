@@ -37,6 +37,10 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 实现按钮默认消失，滚动至页面高度一半时出现，点击后平滑滚动至顶部，按钮居于网页图层顶层
 #### 3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）
 新增 self-scroll-progress.css
-使用 @import 挂载于 post.css，main.js中新增滚动监听
+使用 @import 挂载于 post.css，main.js 中新增滚动监听
 #### 4. Nav 顶部导航栏以及 Footer 增加鼠标悬停提示
 新增 nav.css, footer.css 中鼠标 hover 后灰色阴影
+#### 5. Post 文章页每篇文章最下方新增 ”前一篇“ ”后一篇“ 的导航
+新增 self-post-nav.css
+使用 @import 挂载于 post.css, post.ejs 中设置相关参数
+以 Themes cards 为模板，新增前后篇导航
