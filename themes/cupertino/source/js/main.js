@@ -164,14 +164,15 @@
         } else if (progress <= 0) {
             readPercentage.style.visibility = "hidden";
         }
-        progress = progress + "%";
-        // progress = progress.substring(0, progress.length - 2);
-        if(progress === "100%"){
+        if(progress >= 100){
+            progress = 100;
             // progress = "100% - COMPLETE！";
             readPercentage.style.background = "limegreen";
         } else {
             readPercentage.style.background = "grey";
         }
+        progress = progress + "%";
+        // progress = progress.substring(0, progress.length - 2);
         $("#percentage").html(progress);
     });
 })()

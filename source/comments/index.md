@@ -3,6 +3,7 @@ title: null
 no_date: true
 no_divider: true
 no_about: true
+no_scrollProgress: true
 ---
 <div class="container" style="height: calc(100vh - 56px)">
     <strong>

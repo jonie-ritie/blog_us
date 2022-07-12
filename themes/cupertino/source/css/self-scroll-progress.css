@@ -5,21 +5,23 @@
     z-index: 1001;
     visibility: hidden;
     font-family: 'Alata', sans-serif;
-    font-size: 30px;
-    top: 4px;
-    right: 4px;
+    font-size: 22px;
+    top: 8px;
+    right: 8px;
     color: var(--black);
     position: fixed;
     opacity: 0.3;
-    height: 40px;
-    width: 88px;
+    height: 32px;
+    width: 72px;
     text-align: center;
-    background: green;
-    border-radius: 16px;
+    border-radius: 12px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
-@media screen and (max-width: 800px){
-    #percentage {
-        font-size: 32px;
-    }
+#percentage .fill {
+    height: 100%;
+    width: 100%;
+    background-color: orange;
+    position: absolute;
+    left: 0;
 }
