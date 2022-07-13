@@ -46,7 +46,7 @@ footer .item {
 footer .color-scheme-toggle {
     display: inline-block;
     border-radius: 8px;
-    border: 2px solid var(--pink-purple);
+    border: 3px solid var(--pink-purple);
     padding-bottom: 1px;
     margin-top: 16px;
 }
@@ -69,14 +69,19 @@ footer .color-scheme-toggle label span {
     font-size: 14px;
     line-height: 14px;
     padding: 2px 2px;
-    border-radius: 6px;
+    border-radius: 4px;
     color: var(--link);
     width: 40px;
     display: inline-block;
     text-align: center;
+    font-weight: bold;
+}
+
+footer .color-scheme-toggle label span:hover{
+    background-color: #f5f5f5;
 }
 
 footer .color-scheme-toggle label input:checked+span {
     /*color: var(--white-txt-on-blue-bg);*/
-    background-color: #f0f0f0;
+    background-color: #e5e5e5;
 }

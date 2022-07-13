@@ -3,6 +3,7 @@ title: About
 no_date: true
 no_comments: true
 no_about: true
+no_scrollProgress: true
 ---
 This is our first attempt of making our own blog, recording together the details of us, the futures of us, the ideas of us.
 

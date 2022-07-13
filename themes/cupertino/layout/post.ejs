@@ -34,6 +34,12 @@
         <i class="icon-chevron-up"></i>
     </a>
 
+    <% if (!page.no_scrollProgress) { %>
+        <div id="percentage">
+            <div class="fill"></div>
+        </div>
+    <% } %>
+
     <% if (!page.no_about) { %>
         <div class="about">
             <h1><%= __('about_this_post') %></h1>
@@ -55,6 +61,37 @@
             </div>
         </div>
     <% } %>
+
+    <div class="container">
+        <div class="post-nav">
+            <% if (page.next) { %>
+                <div class="nav__prev">
+                    <a href="<%- url_for(page.next.path) %>" class="nav__link">
+                        <div>
+                            <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
+                        </div>
+                        <div>
+                            <div class="nav__label">Previous Post</div>
+                            <div class="nav__title"><%= page.next.title %></div>
+                        </div>
+                    </a>
+                </div>
+            <% } %>
+            <% if (page.prev) { %>
+            <div class="nav__next">
+                <a href="<%- url_for(page.prev.path) %>" class="nav__link">
+                    <div>
+                        <div class="nav__label">Next Post</div>
+                        <div class="nav__title"><%= page.prev.title %></div>
+                    </div>
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
+                    </div>
+                </a>
+            </div>
+            <% } %>
+        </div>
+    </div>
 
     <% if (!page.no_comments) { %>
         <% if (config.waline) { %>
