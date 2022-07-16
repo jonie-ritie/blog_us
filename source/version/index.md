@@ -44,3 +44,7 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 新增 self-post-nav.css
 使用 @import 挂载于 post.css, post.ejs 中设置相关参数
 以 Themes cards 为模板，新增前后篇导航
+<br>
+## Version 0.3:
+#### 1. Waline 新增明暗主题适配
+修改 main.js 以及 waline 配置，实现 waline 评论区明暗切换

@@ -107,8 +107,11 @@ waline:
   serverURL: "'https://comment.ritie-jonie.xyz/'"
   path: window.location.pathname.replace(/\/$/,'')
   copyright: false
-  dark: false
+  dark: "'body[data-current-color-scheme=\"dark\"]'"
   comment: true
+  requiredMeta: "['nick','mail']"
+  login: "'disable'"
+  emoji: "['https://unpkg.com/@waline/emojis@1.0.1/bilibili','https://unpkg.com/@waline/emojis@1.0.1/qq','https://unpkg.com/@waline/emojis@1.0.1/weibo','https://unpkg.com/@waline/emojis@1.0.1/tieba']"
 
 # add 'trigger of css transform while scrolling'
 scrollreveal: true
