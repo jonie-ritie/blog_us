@@ -31,7 +31,7 @@ categories: Retrospect
 ![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211201-03.jpg)
 <br>
 
-### ❤ 百日快乐[（更多甜蜜在此处）](https://ritie-jonie.xyz/2021/10/27/ceremony-100days/)
+### ❤ 百日快乐 - 2021/10/27[（更多甜蜜在此处）](https://ritie-jonie.xyz/2021/10/27/ceremony-100days/)
 <blockquote>
     <p>一百天快乐！！！</p>
 </blockquote>

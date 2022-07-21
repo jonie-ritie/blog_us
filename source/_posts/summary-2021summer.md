@@ -23,7 +23,7 @@ categories: Retrospect
 ![second](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20210901-02.jpg)
 <br>
 
-### 小猪生日快乐（异国） - 2021/08/15
+### 小猪生日 - 2021/08/15
 <blockquote>
     <p>特别的不是节日，是我们</p>
 </blockquote>
