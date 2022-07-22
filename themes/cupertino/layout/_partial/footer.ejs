@@ -10,7 +10,19 @@
 <!--            </div>-->
 <!--            <% } %>-->
 <!--        </div>-->
-        <span>Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br ><%- ('Powered by Hexo') %> </span>
+        <% if (config.busuanzi.enable) { %>
+            <div class="container" style="margin-bottom: 10px">
+                <span id="busuanzi_container_site_uv">
+                    <span id="busuanzi_value_site_uv"></span>&nbsp;Viewers&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                </span>
+                <span id="busuanzi_container_site_pv">
+                    <span id="busuanzi_value_site_pv"></span>&nbsp;Views
+                </span>
+            </div>
+        <% } %>
+
+        <span>Copyright &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %></span>
+
         <% if (theme.show_color_scheme_toggle) { %>
             <br>
             <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" >

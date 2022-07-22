@@ -14,5 +14,6 @@
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="@waline/client" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="busuanzi.pure.mini" level="application" />
   </component>
 </module>

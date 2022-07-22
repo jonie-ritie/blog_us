@@ -116,6 +116,9 @@ waline:
 # add 'trigger of css transform while scrolling'
 scrollreveal: true
 
+busuanzi:
+  enable: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
