@@ -4,20 +4,17 @@
   "name": "Jonie & Ritie",
   "short_name": "J & R",
   "scope": "/",
-  "display": "fullscreen",
-  "start_url": "https://www.ritie-jonie.xyz/",
-  "background_color": "transparent",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "e6e6e6",
   "theme_color": "transparent",
   "description": "WebApp for Jonie & Ritie' Blog",
   "orientation": "any",
-  "related_applications": [],
-  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "/img/stitch_sleepy.png",
+      "src": "https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/favicon/stitch_sleepy.png",
       "sizes": "108x100"
     }
   ],
-  "url": "https://www.ritie-jonie.xyz/",
-  "screenshots": []
+  "splash_pages": null
 }
