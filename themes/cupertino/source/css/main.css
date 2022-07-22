@@ -11,12 +11,12 @@ body {
 }
 
 a:link {
-    color: var(--link);
+    color: var(--pink-purple);
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
@@ -24,7 +24,7 @@ a:active {
 }
 
 a:visited {
-    color: var(--link);
+    color: var(--pink-purple);
     text-decoration: none;
 }
 

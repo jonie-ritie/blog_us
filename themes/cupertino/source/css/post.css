@@ -15,9 +15,9 @@ body ::selection {
 }
 
 .meta .categories {
-  color: var(--link);
+  color: var(--pink-purple);
   margin-bottom: 6px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .meta .categories a {

@@ -23,7 +23,7 @@
 .post-list-item:hover {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   transform: translateY(-6px);
-  transition: all 400ms linear
+  transition: all 400ms linear;
 }
 
 .post-list-item:nth-child(2n-1) {
@@ -88,9 +88,9 @@
 }
 
 .post-list-item .categories {
-  color: var(--link);
+  color: var(--pink-purple);
+  font-weight: bold;
   margin-bottom: 6px;
-  font-weight: 600;
 }
 
 .post-list-item .categories span {
