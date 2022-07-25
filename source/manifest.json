@@ -1,6 +1,4 @@
 {
-  "dir": "ltr",
-  "lang": "zh-CN",
   "name": "Jonie & Ritie",
   "short_name": "J & R",
   "scope": "/",
@@ -8,8 +6,7 @@
   "start_url": "/",
   "background_color": "e6e6e6",
   "theme_color": "transparent",
-  "description": "WebApp for Jonie & Ritie' Blog",
-  "orientation": "any",
+  "description": "Web App for Jonie & Ritie' Blog",
   "icons": [
     {
       "src": "https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/favicon/stitch_sleepy.png",

@@ -119,6 +119,7 @@ scrollreveal: true
 busuanzi:
   enable: true
 
+# generate data required for wechat miniprogram
 restful_api:
   # site 可配置为数组选择性生成某些属性
   # site: ['title', 'subtitle', 'description', 'author', 'since', email', 'favicon', 'avatar']
