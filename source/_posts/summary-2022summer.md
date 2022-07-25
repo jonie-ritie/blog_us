@@ -112,3 +112,11 @@ categories: Retrospect
 
 ![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-13.jpg)
 <br>
+
+### 史迪奇 - 2022/07/23
+<blockquote>
+    <p>！抄作业成功！</p>
+</blockquote>
+
+![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-14.jpg)
+<br>
