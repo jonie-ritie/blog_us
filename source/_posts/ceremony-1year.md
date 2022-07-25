@@ -1,7 +1,7 @@
 ---
 title: 💖 我们一周年啦
 date: 2022-07-19
-cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220719-firstAnni.jpg
+cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220719-cover.jpg
 cover_image_alt: First Year
 categories: Anniversary
 ---

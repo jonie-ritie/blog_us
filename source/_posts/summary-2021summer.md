@@ -1,7 +1,7 @@
 ---
 title: 夏季回顾 - 2021
 date: 2021-09-01
-cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20210901-summary.jpg
+cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20210901-cover.jpg
 categories: Retrospect
 ---
 

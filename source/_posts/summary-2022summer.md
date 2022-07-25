@@ -1,7 +1,7 @@
 ---
 title: 夏季回顾 - 2022
 date: 2022-09-01
-cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-summary.jpg
+cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-cover.jpg
 categories: Retrospect
 ---
 

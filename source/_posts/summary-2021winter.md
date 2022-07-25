@@ -1,7 +1,7 @@
 ---
 title: 冬季回顾 - 2021
 date: 2022-03-01
-cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220301-summary.jpg
+cover_image: https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220301-cover.jpg
 categories: Retrospect
 ---
 
