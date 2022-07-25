@@ -7,6 +7,9 @@ categories: Anniversary
 ---
 
 <br>
+<div class="cover-img">
+    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211027-cover.jpg" ></img>
+</div>
 <blockquote class="quote-card">
     <p>永远真诚 永远坚定<br>才对得起这些为了一点点甜蜜而努力走过的 只有我们知道的日子</p>
 </blockquote>

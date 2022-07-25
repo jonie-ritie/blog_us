@@ -288,3 +288,12 @@ blockquote.quote-card :after {
   }
 }
 
+/* 将封面图加入文档，且不可见 */
+.content .cover-img {
+  border-radius: 16px;
+  overflow: hidden;
+  height: 0;
+}
+
+.content .cover-img img {
+}

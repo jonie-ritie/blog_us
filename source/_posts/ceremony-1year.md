@@ -7,6 +7,9 @@ categories: Anniversary
 ---
 
 <br>
+<div class="cover-img">
+    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220719-cover.jpg" ></img>
+</div>
 <blockquote class="quote-card">
     <p>我是普通人 不是跌宕起伏的女主角 是幸福平淡的路人甲 是有人和我一起面对问题 都未曾想过换个结局</p>
 </blockquote>

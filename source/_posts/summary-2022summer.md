@@ -6,6 +6,9 @@ categories: Retrospect
 ---
 
 <br>
+<div class="cover-img">
+    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-cover.jpg" ></img>
+</div>
 
 ### 宝宝节 - Jonas - 2022/06/01
 <blockquote>

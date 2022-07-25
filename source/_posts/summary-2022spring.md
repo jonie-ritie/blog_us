@@ -6,6 +6,9 @@ categories: Retrospect
 ---
 
 <br>
+<div class="cover-img">
+    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220601-cover.jpg" ></img>
+</div>
 
 ### 涂鸦 - Rita - 2022/03/29
 <blockquote>
