@@ -23,6 +23,7 @@ categories: Retrospect
     <p>给小猪辅导计算机功课</p>
 </blockquote>
 
+![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-15.jpg)
 <div class="container">
     <video width="80%" controls="controls" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-02.mp4" type="video/mp4">
     </video>
@@ -62,6 +63,7 @@ categories: Retrospect
     <p>谁能拒绝和男朋友去商场坐一次粉色恐龙呢</p>
 </blockquote>
 
+![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-16.jpg)
 <div class="container">
     <video width="80%" controls="controls" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-07.mp4" type="video/mp4">
     </video>
@@ -73,6 +75,7 @@ categories: Retrospect
     <p>栓Q 陆老师</p>
 </blockquote>
 
+![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-17.jpg)
 <div class="container">
     <video width="80%" controls="controls" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-08.mp4" type="video/mp4">
     </video>
@@ -84,12 +87,11 @@ categories: Retrospect
     <p>最想去是你五岁 在你背着书包放学路上拿着奥特曼骗你长大后会娶我的保证书</p>
 </blockquote>
 
+![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-10.jpg)
 <div class="container">
     <video width="80%" controls="controls" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-09.mp4" type="video/mp4">
     </video>
 </div>
-
-![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220901-10.jpg)
 <br>
 
 ### 送饭 - Jonas - 2022/07/04

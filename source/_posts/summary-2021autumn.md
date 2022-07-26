@@ -51,6 +51,8 @@ categories: Retrospect
     <video width="80%" controls="controls" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211201-04.mp4" type="video/mp4">
     </video>
 </div>
+
+![](https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211201-07.jpg)
 <br>
 
 ### 小惊喜 - Jonas - 2021/11/09
