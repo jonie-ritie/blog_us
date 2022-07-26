@@ -7,8 +7,8 @@ categories: Anniversary
 ---
 
 <br>
-<div class="cover-img">
-    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220515-cover.jpg" ></img>
+<div>
+    <img style="height: 0; width: 0" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220515-cover.png" ></img>
 </div>
 <blockquote class="quote-card">
     <p>一起看过的电影当然要记录下来咯</p>

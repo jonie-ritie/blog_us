@@ -144,7 +144,7 @@ restful_api:
   use_tag_slug: false      # Use slug for filename of tag data
   post: true               # 文章数据
   pages: false            # 额外的 Hexo 页面数据, 如 About
-  swipers_list: []          # 生成指定的页面信息,做指定的轮播文章展示
+  swipers_list: [summary-2022summer,ceremony-1year,summary-2022spring,ceremony-300days,summary-2021winter]          # 生成指定的页面信息,做指定的轮播文章展示
   search_all:                  #  配置全局搜索
     enable: true
     path: api/search.json

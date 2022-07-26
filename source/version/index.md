@@ -52,3 +52,7 @@ BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时�
 ## Version 0.4:
 #### 1. 每页页脚新增网页访客数和访问量
 header.ejs 导入不蒜子，footer.ejs 中使用
+
+## Version 0.5:
+#### 1. Post 文章每页开头添加一张零尺寸的封面图（微信小程序用）
+Post 每页新增 <image> 封面 </image>

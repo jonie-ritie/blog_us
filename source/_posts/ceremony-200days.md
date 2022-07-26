@@ -7,8 +7,8 @@ categories: Anniversary
 ---
 
 <br>
-<div class="cover-img">
-    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220204-cover.jpg" ></img>
+<div>
+    <img style="height: 0; width: 0" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20220204-cover.png" ></img>
 </div>
 <blockquote class="quote-card">
     <p>每一个木偶人都要在钟点相遇<br>爱本身就是一件很纯粹的事 一辈子太短 全是感情 没有技巧</p>

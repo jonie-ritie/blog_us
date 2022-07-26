@@ -6,8 +6,8 @@ categories: Retrospect
 ---
 
 <br>
-<div class="cover-img">
-    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211201-cover.jpg" ></img>
+<div>
+    <img style="height: 0; width: 0" src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/posts/20211201-cover.jpg" ></img>
 </div>
 
 ### 涂鸦 - Jonas - 2021/09/01
