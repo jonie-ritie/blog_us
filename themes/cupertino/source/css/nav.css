@@ -93,64 +93,79 @@ nav .nav-item-icon {
 }
 
 body[data-color-scheme="auto"] nav .nav-item-github, body[data-color-scheme="light"] nav .nav-item-github {
-    background-image: url(/theme-img/github-mark-dark.png);
+    background-image: url(../theme-img/github-mark-dark.png);
     background-color: rgba(150,150,150,0);
 }
 
 body[data-color-scheme="auto"] nav .nav-item-qq, body[data-color-scheme="light"] nav .nav-item-qq {
-    background-image: url(/theme-img/qq-mark-dark.png);
+    background-image: url(../theme-img/qq-mark-dark.png);
     background-color: rgba(150,150,150,0);
 }
 
 body[data-color-scheme="auto"] nav .nav-item-discord, body[data-color-scheme="light"] nav .nav-item-discord {
-    background-image: url(/theme-img/discord-mark-dark.svg);
+    background-image: url(../theme-img/discord-mark-dark.svg);
+    background-color: rgba(150,150,150,0);
+}
+
+body[data-color-scheme="auto"] nav .nav-item-miniprogram, body[data-color-scheme="light"] nav .nav-item-miniprogram {
+    background-image: url(../theme-img/miniprogram-mark-dark.png);
     background-color: rgba(150,150,150,0);
 }
 
 body[data-color-scheme="auto"] nav .nav-item-email, body[data-color-scheme="light"] nav .nav-item-email {
-    background-image: url(/theme-img/email-mark-dark.png);
+    background-image: url(../theme-img/email-mark-dark.png);
     background-color: rgba(150,150,150,0);
 }
 
 @media (prefers-color-scheme: dark) {
     body[data-color-scheme="auto"] nav .nav-item-github {
-        background-image: url(/theme-img/github-mark-light.png);
+        background-image: url(../theme-img/github-mark-light.png);
         background-color: rgba(150,150,150,0);
     }
 
     body[data-color-scheme="auto"] nav .nav-item-qq {
-        background-image: url(/theme-img/qq-mark-light.png);
+        background-image: url(../theme-img/qq-mark-light.png);
         background-color: rgba(150,150,150,0);
     }
 
     body[data-color-scheme="auto"] nav .nav-item-discord {
-        background-image: url(/theme-img/discord-mark-light.svg);
+        background-image: url(../theme-img/discord-mark-light.svg);
+        background-color: rgba(150,150,150,0);
+    }
+
+    body[data-color-scheme="auto"] nav .nav-item-miniprogram {
+        background-image: url(../theme-img/miniprogram-mark-light.png);
         background-color: rgba(150,150,150,0);
     }
 
     body[data-color-scheme="auto"] nav .nav-item-email {
-        background-image: url(/theme-img/email-mark-light.png);
+        background-image: url(../theme-img/email-mark-light.png);
         background-color: rgba(150,150,150,0);
     }
 }
 
 body[data-color-scheme="dark"] nav .nav-item-github {
-    background-image: url(/theme-img/github-mark-light.png);
+    background-image: url(../theme-img/github-mark-light.png);
     background-color: rgba(150,150,150,0);
 }
 
 body[data-color-scheme="dark"] nav .nav-item-qq {
-    background-image: url(/theme-img/qq-mark-light.png);
+    background-image: url(../theme-img/qq-mark-light.png);
     background-color: rgba(150,150,150,0);
 }
 
 body[data-color-scheme="dark"] nav .nav-item-discord {
-    background-image: url(/theme-img/discord-mark-light.svg);
+    background-image: url(../theme-img/discord-mark-light.svg);
+    background-color: rgba(150,150,150,0);
+}
+
+body[data-color-scheme="dark"] nav .nav-item-miniprogram {
+    background-image: url(../theme-img/miniprogram-mark-light.png);
     background-color: rgba(150,150,150,0);
 }
 
 body[data-color-scheme="dark"] nav .nav-item-email {
-    background-image: url(/theme-img/email-mark-light.png);
+    background-image: url(../theme-img/email-mark-light.png);
     background-color: rgba(150,150,150,0);
 }
 
