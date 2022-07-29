@@ -4,7 +4,7 @@
   "scope": "/",
   "display": "standalone",
   "start_url": "/",
-  "background_color": "e6e6e6",
+  "background_color": "#e6e6e6",
   "theme_color": "transparent",
   "description": "Web App for Jonie & Ritie' Blog",
   "icons": [

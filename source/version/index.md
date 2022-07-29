@@ -56,3 +56,7 @@ header.ejs 导入不蒜子，footer.ejs 中使用
 ## Version 0.5:
 #### 1. Post 文章每页开头添加一张零尺寸的封面图（微信小程序用）
 Post 每页新增 <image> 封面 </image>
+#### 2. Nav 新增小程序码显示
+修改 nav.css, nav.ejs 新增 self-miniprogram-code.js
+#### 3. 优化 回到顶部 滚动进度 小程序码显示 代码逻辑
+新增相对应的 js 代码并以 script 形式绑定到对应元素上

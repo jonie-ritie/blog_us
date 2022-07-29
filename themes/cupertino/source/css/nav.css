@@ -169,7 +169,7 @@ body[data-color-scheme="dark"] nav .nav-item-email {
     background-color: rgba(150,150,150,0);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     nav {
         height: 48px;
         overflow: hidden;
@@ -245,5 +245,37 @@ body[data-color-scheme="dark"] nav .nav-item-email {
     nav.open .nav-items {
         transform: translate(0, -0%);
         opacity: 1;
+    }
+}
+
+.preview-container {
+    user-select: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100vw);
+    height: calc(100vh);
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9998;
+}
+
+.preview-container img {
+    max-height: 80%;
+    max-width: 80%;
+    object-fit: contain;
+    border-radius: 24px;
+    animation: imgIn 0.5s;
+}
+
+@keyframes imgIn {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1);
     }
 }

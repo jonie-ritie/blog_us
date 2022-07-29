@@ -1,7 +1,7 @@
 (() => {
     var navEl = document.getElementById('theme-nav');
     navEl.addEventListener('click', (e) => {
-        if (window.innerWidth <= 600) {
+        if (window.innerWidth <= 800) {
             if (navEl.classList.contains('open')) {
                 navEl.style.height = ''
             } else {
@@ -19,7 +19,7 @@
         if (navEl.classList.contains('open')) {
             navEl.style.height = 48 + document.querySelector('#theme-nav .nav-items').clientHeight + 'px'
         }
-        if (window.innerWidth > 600) {
+        if (window.innerWidth > 800) {
             if (navEl.classList.contains('open')) {
                 navEl.style.height = ''
                 navEl.classList.remove('open')
@@ -117,29 +117,6 @@
         }
     }
 
-    // Add back to top button for every post and info pages
-    // When to show the scroll link
-    const pageheight = document.documentElement.clientHeight;
-    // Our scroll link element
-    const toTopBtn = document.getElementById("return-to-top")
-    let scrollTop = 0
-    window.onscroll = () => {
-        scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-        // 当滚动条滚到当前页面高度1/2的时候，显示“回到顶部”按钮
-        if (scrollTop >= pageheight/2) {    // If page is scrolled more than 50px
-            $('#return-to-top').fadeIn("fast");       // Fade in the arrow
-        } else {
-            $('#return-to-top').fadeOut("fast");      // Else fade out the arrow
-        }
-        // scrollTop > pageheight/2 ? (toTopBtn.style.display = 'block') : (toTopBtn.style.display = 'none')
-    }
-    toTopBtn.addEventListener('click', function () {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-        })
-    })
-
     // add a time cat on the comment page
     $(".option").on("click", function () {
         $(".option").removeClass("active");
@@ -176,30 +153,4 @@
         $(".option:nth-child(4)").addClass("active");
         $(".time").attr('class', 'time night');
     }
-
-    // vertical scroll progress bar, address: https://codepen.io/EricPorter/pen/rNexdrG
-    $(window).scroll(function(){
-        var top = $(window).scrollTop();
-        var height = $(document).height();
-        height = height - $(window).height();
-        var progress = (top)/height;
-        progress = progress * 100;
-        progress = Math.round(progress);
-        var readPercentage = document.getElementById("percentage");
-        if (progress > 0) {
-            readPercentage.style.visibility = "visible";
-        } else if (progress <= 0) {
-            readPercentage.style.visibility = "hidden";
-        }
-        if(progress >= 100){
-            progress = 100;
-            // progress = "100% - COMPLETE！";
-            readPercentage.style.background = "limegreen";
-        } else {
-            readPercentage.style.background = "grey";
-        }
-        progress = progress + "%";
-        // progress = progress.substring(0, progress.length - 2);
-        $("#percentage").html(progress);
-    });
 })()

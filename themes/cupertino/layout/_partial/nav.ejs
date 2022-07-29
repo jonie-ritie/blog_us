@@ -14,7 +14,7 @@
                 <% } else if (i == 'Email' || i == 'email'){ %>
                     <a class="nav-item nav-item-email nav-item-icon" href="<%- url_for(theme.nav.items[i]) %>" target="_blank">&nbsp;</a>
                 <% } else if (i == 'Miniprogram' || i == 'miniprogram'){ %>
-                    <a class="nav-item nav-item-miniprogram nav-item-icon" href="<%- url_for(theme.nav.items[i]) %>" target="_blank">&nbsp;</a>
+                    <div class="nav-item nav-item-miniprogram nav-item-icon" id="sunCodeIcon">&nbsp;</div>
                 <% } else { %>
                     <a class="nav-item" href="<%- url_for(theme.nav.items[i]) %>"><%= i %></a>
                 <% } %>
@@ -22,3 +22,8 @@
         </div>
     </div>
 </nav>
+
+<div class="preview-container" id="suncodeContainer">
+    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/miniprogram/miniprogram-suncode.jpg" alt="Wechat Miniprogram Code">
+</div>
+<script type="text/javascript" src="/js/self-miniprogram-code.js"></script>
