@@ -12,40 +12,40 @@
 
     <div class="post-list archives">
         <% page.posts.each(function (post) { %>
-        <article class="post-list-item">
-            <a href="<%- url_for(post.path) %>">
-                <% if (post.cover_image) { %>
-                <div class="cover-img">
-                    <img src="<%= post.cover_image %>" alt="<%= post.cover_image_alt %>" >
-                </div>
-                <% } %>
-                <div class="content">
-                    <% if (post.categories && post.categories.length && !is_category()) { %>
-                    <div class="categories<%= theme.uppercase_categories ? ' text-uppercase' : '' %>">
-                    <% post.categories.forEach((category) => { %>
-                        <span><%= category.name %></span>
-                    <% }) %>
+            <article class="post-list-item">
+                <a href="<%- url_for(post.path) %>">
+                    <% if (post.cover_image) { %>
+                    <div class="cover-img">
+                        <img src="<%= post.cover_image %>" alt="<%= post.cover_image_alt %>" >
                     </div>
                     <% } %>
-                    <div class="title">
-                        <%= post.title %>
+                    <div class="content">
+                        <% if (post.categories && post.categories.length && !is_category()) { %>
+                        <div class="categories<%= theme.uppercase_categories ? ' text-uppercase' : '' %>">
+                        <% post.categories.forEach((category) => { %>
+                            <span><%= category.name %></span>
+                        <% }) %>
+                        </div>
+                        <% } %>
+                        <div class="title">
+                            <%= post.title %>
+                        </div>
+                        <% if (theme.show_excerpt) { %>
+                        <div class="excerpt">
+                            <%- post.excerpt %>
+                        </div>
+                        <% } %>
+                        <div class="time">
+                            <span><%= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][post.date.month()] %></span>
+                            <span>&nbsp;<%- post.date.date() %>,&nbsp;</span>
+                            <span><%- post.date.year() %></span>
+                        </div>
                     </div>
-                    <% if (theme.show_excerpt) { %>
-                    <div class="excerpt">
-                        <%- post.excerpt %>
-                    </div>
-                    <% } %>
-                    <div class="time">
-                        <span><%= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][post.date.month()] %></span>
-                        <span>&nbsp;<%- post.date.date() %>,&nbsp;</span>
-                        <span><%- post.date.year() %></span>
-                    </div>
-                </div>
-            </a>
-        </article>
-        <script>
-            ScrollReveal().reveal('.post-list-item',{ delay: 50, interval: 100, reset: true, distance: '5%', origin: 'top'});
-        </script>
+                </a>
+            </article>
+            <script>
+                ScrollReveal().reveal('.post-list-item',{ delay: 50, interval: 100, reset: true, distance: '5%', origin: 'top'});
+            </script>
         <% }) %>
     </div>
 
