@@ -268,14 +268,4 @@ body[data-color-scheme="dark"] nav .nav-item-email {
     max-width: 80%;
     object-fit: contain;
     border-radius: 24px;
-    animation: imgIn 0.5s;
-}
-
-@keyframes imgIn {
-    from {
-        transform: scale(0.5);
-    }
-    to {
-        transform: scale(1);
-    }
 }

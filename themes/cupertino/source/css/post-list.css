@@ -18,6 +18,7 @@
   background-color: var(--card-bg);
   margin-bottom: 21px;
   transition: all 400ms linear;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 .post-list-item:hover {
