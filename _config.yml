@@ -104,7 +104,7 @@ theme: cupertino
 # add waline comment
 # please trans to post.js to change
 waline:
-  serverURL: "'https://comment.ritie-jonie.xyz/'"
+  serverURL: "'https://comment.ritie-jonie.space/'"
   path: window.location.pathname.replace(/\/$/,'')
   copyright: false
   dark: "'body[data-current-color-scheme=\"dark\"]'"
