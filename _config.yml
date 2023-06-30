@@ -153,9 +153,9 @@ restful_api:
 
 # Deployment
 # Deploy时，命令行输入
-# git config --global http.proxy http://127.0.0.1:7890 
+# git config --global http.proxy http://127.0.0.1:7890
 # git config --global https.proxy http://127.0.0.1:7890
-# 再使用 hexo clean && hexo deploy 部署到 github 服务器（vercel服务器需要手动配置）
+# 再使用 hexo clean && hexo deploy 部署到 github 服务器（pull request会被vercel服务器自动接管）
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
